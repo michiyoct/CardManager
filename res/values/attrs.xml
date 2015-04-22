@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CardDetailModuleBarView">
+        <attr name="text" format="string" />
+    </declare-styleable>
+    <declare-styleable name="UnderLineEditText">
+        <attr name="underLineColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="NoScrollListView">
+        <attr name="dividerHeight" format="dimension" />
+        <attr name="dividerColor" format="color" />
+    </declare-styleable>
+
+</resources>

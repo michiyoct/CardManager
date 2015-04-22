@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/offset_medium"
+    android:paddingLeft="@dimen/offset_larger"
+    android:paddingRight="@dimen/offset_larger"
+    android:paddingTop="@dimen/offset_medium" >
+
+    <TextView
+        android:id="@+id/view_card_detail_module_bar_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/text_size_large" />
+
+    <ImageView
+        android:id="@+id/view_card_detail_module_bar_image_used"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/icon_size_less"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/offset_medium"
+        android:layout_toRightOf="@id/view_card_detail_module_bar_text_title"
+        android:scaleType="centerInside"
+        android:src="@drawable/card_detail_icon_used"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/view_card_detail_module_bar_image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/icon_size_medium"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/card_detail_module_bar_icon_close" />
+
+</RelativeLayout>

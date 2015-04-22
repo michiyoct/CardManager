@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_corner_radius_all_ddffffff"
+    android:padding="@dimen/offset_medium" >
+
+    <ImageView
+        android:id="@+id/card_list_simple_card_image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/card_list_simple_card_layout_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/offset_less"
+        android:layout_marginRight="@dimen/offset_less"
+        android:layout_toLeftOf="@+id/card_list_simple_card_image_right"
+        android:layout_toRightOf="@+id/card_list_simple_card_image_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/card_list_simple_card_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/card_list_simple_card_text_validity_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="#ff323232"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/card_list_simple_card_text_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/offset_small"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="#ff323232"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/card_list_simple_card_image_used"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/icon_size_less"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/card_list_simple_card_image_right"
+        android:scaleType="centerInside"
+        android:src="@drawable/card_detail_setting_option_5"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/card_list_simple_card_image_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/offset_medium"
+        android:src="@drawable/card_detail_module_bar_icon_close" />
+
+</RelativeLayout>

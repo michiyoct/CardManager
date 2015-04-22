@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="category_colors">
+        <item>0xffda4453</item>
+        <item>0xfff6bb42</item>
+        <item>0xff37bc9b</item>
+        <item>0xff4a89dc</item>
+        <item>0xff967adc</item>
+        <item>0xff8cc152</item>
+        <item>0xffaab2bd</item>
+        <item>0xffaab2bd</item>
+        <item>0xffaab2bd</item>
+        <item>0xffaab2bd</item>
+    </array>
+    <array name="category_name_default">
+        <item>会员卡</item>
+        <item>储蓄卡</item>
+        <item>折扣卡</item>
+        <item>信用卡</item>
+        <item>档案卡</item>
+        <item>团购券</item>
+    </array>
+
+</resources>

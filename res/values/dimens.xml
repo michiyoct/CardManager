@@ -1,0 +1,19 @@
+<resources>
+
+    <dimen name="radius_background">5dp</dimen>
+    <dimen name="radius_background_small">2dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="offset_small">4dp</dimen>
+    <dimen name="offset_less">8dp</dimen>
+    <dimen name="offset_medium">12dp</dimen>
+    <dimen name="offset_larger">18dp</dimen>
+    <dimen name="offset_large">25dp</dimen>
+    <dimen name="offset_xlarge">40dp</dimen>
+    <dimen name="icon_size_large">42dp</dimen>
+    <dimen name="icon_size_medium">33dp</dimen>
+    <dimen name="icon_size_less">20dp</dimen>
+	<dimen name="card_image_width">342dp</dimen>
+	<dimen name="card_image_height">216dp</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattr="http://schemas.android.com/apk/res/com.example.cardmanager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/activity_card_show_message_button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/offset_medium"
+            android:background="@drawable/background_corner_radius_all_ddffffff"
+            android:paddingBottom="@dimen/offset_medium"
+            android:paddingLeft="@dimen/offset_large"
+            android:paddingRight="@dimen/offset_large"
+            android:paddingTop="@dimen/offset_medium"
+            android:text="添加抓取短信号码"
+            android:textColor="#323232"
+            android:textSize="@dimen/text_size_medium" />
+
+        <com.example.views.NoScrollListView
+            android:id="@+id/activity_card_show_message_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            myattr:dividerHeight="@dimen/offset_less" >
+        </com.example.views.NoScrollListView>
+    </LinearLayout>
+
+</ScrollView>

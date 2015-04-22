@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/view_main_frequent_card_image_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerInside" />
+
+    <RelativeLayout
+        android:id="@+id/view_main_frequent_card_layout_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/view_main_frequent_card_image_background"
+        android:layout_marginLeft="@dimen/offset_larger"
+        android:layout_marginTop="@dimen/offset_medium" >
+
+        <ImageView
+            android:id="@+id/view_main_frequent_card_image_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/view_main_frequent_card_text_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/view_main_frequent_card_text_name"
+            android:layout_marginRight="@dimen/offset_medium"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/view_main_frequent_card_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/view_main_frequent_card_image_icon"
+            android:paddingBottom="@dimen/offset_small"
+            android:paddingTop="@dimen/offset_small" />
+    </RelativeLayout>
+
+</RelativeLayout>
